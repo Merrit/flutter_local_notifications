@@ -10,8 +10,12 @@ dependencies:
   clock: ^1.1.0
   flutter:
     sdk: flutter
-  flutter_local_notifications_linux: ^4.0.0
-  flutter_local_notifications_platform_interface: ^7.0.0
+  flutter_local_notifications_linux:
+    git:
+      url: https://github.com/Merrit/flutter_local_notifications.git
+      ref: afd8cb7a740e8bec638803867c1cee4c92b60967
+      path: flutter_local_notifications_linux
+  flutter_local_notifications_platform_interface: ^7.0.0-dev.2
   timezone: ^0.9.0
 
 dev_dependencies:
